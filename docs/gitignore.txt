@@ -1,0 +1,29 @@
+# ── Live shop data — NEVER commit (products, bills, customers, state) ──
+shopkeep-data/
+
+# ── Generated artifacts (rebuild with the commands in README) ──
+shopkeep-dashboard.html
+shopkeep.README.md
+labels/
+backups/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ── Editor / OS ──
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Logs / local-only ──
+*.log
+server.log
+worklog.md
+.claude/
+.z-ai-config/
